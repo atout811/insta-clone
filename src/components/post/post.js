@@ -17,7 +17,6 @@ import {
   Interaction,
   url,
   ImageWrapper,
-  img,
   CommentWrapper,
 } from "./postStyle";
 
@@ -46,7 +45,7 @@ const Post = props => {
 
   return (
     <Wrapper>
-      {console.log(props)}
+      {/* {console.log(props)} */}
       <UserBlock>
         <UserImage src={props.userImage}></UserImage>
         <UserName>

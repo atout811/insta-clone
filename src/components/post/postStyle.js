@@ -31,6 +31,11 @@ export const ImageWrapper = styled.img`
   height: 500px;
   margin: auto;
   border-radius: 10px;
+
+  @media only screen and (max-width: 768px) {
+    margin: auto;
+    width: 450px;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -42,6 +47,11 @@ export const Wrapper = styled.div`
   margin: auto;
   width: 1000px;
   text-align: center;
+  border-radius: 15px;
+
+  @media only screen and (max-width: 768px) {
+    width: 500px;
+  }
 `;
 
 export const Interaction = styled.div`
